@@ -1,0 +1,12 @@
+
+Business Requirement Document (BRD) - User Portal
+---------------------------------------------------
+1. User Authentication:
+   - System shall allow users to log in with email and password.
+   - Password must be between 8 and 20 characters, containing at least 1 uppercase and 1 number.
+   - Account locks after 3 failed consecutive login attempts.
+
+2. Leave Request Module:
+   - Employees can apply for leave between 1 and 30 consecutive days.
+   - Leave requests must be submitted at least 48 hours prior to start date.
+   - System must check leave balance before submission.
